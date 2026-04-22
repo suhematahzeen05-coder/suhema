@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suhema Tahzeen | BCA Portfolio</title>
+  <meta name="description" content="BCA student portfolio showcasing academic history, projects, and skills." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">Suhema<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-overlay"></div>
+    <canvas id="particles-canvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Suhema Tahzeen</h1>
+      <div class="hero-typewriter">
+        <span id="typewriter-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">A passionate BCA student building real-world solutions through technology, creativity, and continuous learning.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll Down</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get To Know Me</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-avatar-wrapper">
+          <div class="about-avatar">
+            <div class="avatar-initials">S</div>
+          </div>
+          <div class="about-badge">🎓 BCA Student</div>
+        </div>
+        <div class="about-text">
+          <h3>Aspiring Engineer &amp; Developer</h3>
+          <p>I am a B.Tech student with a strong passion for technology and problem-solving. I enjoy building projects that blend theoretical knowledge with practical applications.</p>
+          <p>I am constantly exploring new technologies, frameworks, and ideas to grow as a developer and engineer. My academic journey has given me a solid foundation in core engineering concepts.</p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">3+</span>
+              <span class="stat-label">Projects Done</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">2026</span>
+              <span class="stat-label">Graduating</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section education-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">My Learning Path</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon">🎓</div>
+            <div class="timeline-content">
+              <span class="timeline-year">2022 – 2026</span>
+              <h3>B.Tech – Computer Science &amp; Engineering</h3>
+              <p class="timeline-institute">Your University Name, City</p>
+              <p>Pursuing a Bachelor of Technology in CSE, focusing on software development, data structures, algorithms, and modern web technologies.</p>
+              <div class="timeline-tags">
+                <span>CGPA: 8.2</span>
+                <span>CSE Branch</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon">🏫</div>
+            <div class="timeline-content">
+              <span class="timeline-year">2020 – 2022</span>
+              <h3>Higher Secondary (12th) – Science</h3>
+              <p class="timeline-institute">Your School Name, City</p>
+              <p>Completed Class XII with Physics, Chemistry, and Mathematics. Scored 85% with strong performance in mathematics and science subjects.</p>
+              <div class="timeline-tags">
+                <span>85%</span>
+                <span>PCM</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-icon">📚</div>
+            <div class="timeline-content">
+              <span class="timeline-year">2018 – 2020</span>
+              <h3>Secondary (10th) – CBSE</h3>
+              <p class="timeline-institute">Your School Name, City</p>
+              <p>Completed Class X with a well-rounded academic record, demonstrating excellence across all subjects.</p>
+              <div class="timeline-tags">
+                <span>90%</span>
+                <span>CBSE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section skills-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>💻 Programming Languages</h3>
+          <div class="skill-pills">
+            <span class="pill">Python</span>
+            <span class="pill">C/C++</span>
+            <span class="pill">Java</span>
+            <span class="pill">JavaScript</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>🌐 Web Development</h3>
+          <div class="skill-pills">
+            <span class="pill">HTML5</span>
+            <span class="pill">CSS3</span>
+            <span class="pill">React.js</span>
+            <span class="pill">Node.js</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>🗄️ Databases</h3>
+          <div class="skill-pills">
+            <span class="pill">MySQL</span>
+            <span class="pill">MongoDB</span>
+            <span class="pill">Firebase</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3>🛠️ Tools &amp; Platforms</h3>
+          <div class="skill-pills">
+            <span class="pill">Git &amp; GitHub</span>
+            <span class="pill">VS Code</span>
+            <span class="pill">Linux</span>
+            <span class="pill">Figma</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card" data-aos>
+          <div class="project-card-top">
+            <div class="project-icon">🛒</div>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <a href="#" class="project-link" title="Live Demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">E-Commerce Web App</h3>
+          <p class="project-desc">A full-stack e-commerce platform with product listings, cart management, user authentication, and payment integration using React and Node.js.</p>
+          <div class="project-tags">
+            <span>React</span><span>Node.js</span><span>MongoDB</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos>
+          <div class="project-card-top">
+            <div class="project-icon">🤖</div>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <a href="#" class="project-link" title="Live Demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">AI Chatbot Assistant</h3>
+          <p class="project-desc">An intelligent chatbot built with Python and NLP techniques that can answer FAQs, handle user queries, and learn from conversations.</p>
+          <div class="project-tags">
+            <span>Python</span><span>NLP</span><span>Flask</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos>
+          <div class="project-card-top">
+            <div class="project-icon">📊</div>
+            <div class="project-links">
+              <a href="#" class="project-link" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+              <a href="#" class="project-link" title="Live Demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Student Result Management</h3>
+          <p class="project-desc">A web-based system for managing student results with role-based access for admins, teachers, and students, built using PHP and MySQL.</p>
+          <div class="project-tags">
+            <span>PHP</span><span>MySQL</span><span>HTML/CSS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>Feel free to reach out for collaborations, project discussions, or just to say hi! I'm always open to new opportunities.</p>
+          <div class="contact-items">
+            <a href="mailto:suhema@example.com" class="contact-item" id="contact-email">
+              <span class="contact-item-icon">📧</span>
+              <div>
+                <strong>Email</strong>
+                <span>suhema@example.com</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/suhema" target="_blank" class="contact-item" id="contact-linkedin">
+              <span class="contact-item-icon">💼</span>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>linkedin.com/in/suhema</span>
+              </div>
+            </a>
+            <a href="https://github.com/suhema" target="_blank" class="contact-item" id="contact-github">
+              <span class="contact-item-icon">🐙</span>
+              <div>
+                <strong>GitHub</strong>
+                <span>github.com/suhema</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" id="submit-btn">Send Message 🚀</button>
+          <p class="form-success" id="form-success">✅ Message sent! I'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; Built with ❤️ by <strong>Suhema Tahzeen</strong> · 2026</p>
+      <p class="footer-sub">BCA Computer Science &amp; Engineering</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
